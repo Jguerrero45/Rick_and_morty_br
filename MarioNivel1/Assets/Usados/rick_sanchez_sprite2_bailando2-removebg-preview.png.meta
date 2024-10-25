@@ -1,0 +1,705 @@
+fileFormatVersion: 2
+guid: 4cee2b579801a104ba21195428c714f7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80786f738d5eef4c885611641cc4b64
+      internalID: 2034066951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 44
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e658e01e55b9a0e409e8012b09662338
+      internalID: 114551195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 44
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d5e4d9d0533c24c905bd884b95d7e8
+      internalID: 285278077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 44
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e7c3d7ea394974c91e787102f9d953
+      internalID: 1029311191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 44
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b9bec1b362d7c4aa09819e1294feb1
+      internalID: -555354971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 44
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2527a1156bac6874ea8e66c9073414cb
+      internalID: 1529009450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 44
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f56c55a5ba2934b97ca8b6101d544e
+      internalID: 1912747591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 44
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33734571b54cd56498c3c86f35846593
+      internalID: 1574639234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 44
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89987e3ef454e4b4b8983f3bc88745f2
+      internalID: -1775312116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 44
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff386db82b80d14bac03ab1d9fd8dc4
+      internalID: 85654016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 44
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4828cd7d6283d384f938375c733885fe
+      internalID: 628533702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 44
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f51c5294f25df4b8258295181d5c09
+      internalID: -1186531339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 44
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d8b4bf89ff18840ae728ef0c50fb90
+      internalID: 771618217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 45
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3ab02909c45b242a1b26586e935d02
+      internalID: 684945139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 44
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9b7efe03d6604c8fd62b6b4a048a0
+      internalID: 897738122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 44
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456239d0db55aa5429d7e2ec0857b254
+      internalID: -905358261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 44
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e873d972a49a458306e03e1eb28b9
+      internalID: 1001953359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 44
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb545914d604a14e88b7001cf6c4b0f
+      internalID: -742147413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 44
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b38f39816931e46bfadb8933746233
+      internalID: 985632941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 44
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec5e62bf93edbd40996f502e3ecfa9b
+      internalID: -1977808174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 43
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0624ac6942f094f8cf9f6c09665032
+      internalID: 1394106262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 44
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6a4764b57cfaf48accd0bb96832da2
+      internalID: 1170658877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 44
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc0b19743da3b8448cee5dfdf7daaf3
+      internalID: -604804531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 44
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69004e201939cfa42b235eb1337abb65
+      internalID: 1137815182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 45
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa74a2c5bed1945940379778b52312
+      internalID: -112826168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 44
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417074b646497e4da22b7835f42a9fc
+      internalID: -908990160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick_sanchez_sprite2_bailando2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 43
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e63c6e949ee28479964ebca7380d7a
+      internalID: -231909543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rick_sanchez_sprite2_bailando2-removebg-preview_0: 2034066951
+      rick_sanchez_sprite2_bailando2-removebg-preview_1: 114551195
+      rick_sanchez_sprite2_bailando2-removebg-preview_10: 628533702
+      rick_sanchez_sprite2_bailando2-removebg-preview_11: -1186531339
+      rick_sanchez_sprite2_bailando2-removebg-preview_12: 771618217
+      rick_sanchez_sprite2_bailando2-removebg-preview_13: 684945139
+      rick_sanchez_sprite2_bailando2-removebg-preview_14: 897738122
+      rick_sanchez_sprite2_bailando2-removebg-preview_15: -905358261
+      rick_sanchez_sprite2_bailando2-removebg-preview_16: 1001953359
+      rick_sanchez_sprite2_bailando2-removebg-preview_17: -742147413
+      rick_sanchez_sprite2_bailando2-removebg-preview_18: 985632941
+      rick_sanchez_sprite2_bailando2-removebg-preview_19: -1977808174
+      rick_sanchez_sprite2_bailando2-removebg-preview_2: 285278077
+      rick_sanchez_sprite2_bailando2-removebg-preview_20: 1394106262
+      rick_sanchez_sprite2_bailando2-removebg-preview_21: 1170658877
+      rick_sanchez_sprite2_bailando2-removebg-preview_22: -604804531
+      rick_sanchez_sprite2_bailando2-removebg-preview_23: 1137815182
+      rick_sanchez_sprite2_bailando2-removebg-preview_24: -112826168
+      rick_sanchez_sprite2_bailando2-removebg-preview_25: -908990160
+      rick_sanchez_sprite2_bailando2-removebg-preview_26: -231909543
+      rick_sanchez_sprite2_bailando2-removebg-preview_3: 1029311191
+      rick_sanchez_sprite2_bailando2-removebg-preview_4: -555354971
+      rick_sanchez_sprite2_bailando2-removebg-preview_5: 1529009450
+      rick_sanchez_sprite2_bailando2-removebg-preview_6: 1912747591
+      rick_sanchez_sprite2_bailando2-removebg-preview_7: 1574639234
+      rick_sanchez_sprite2_bailando2-removebg-preview_8: -1775312116
+      rick_sanchez_sprite2_bailando2-removebg-preview_9: 85654016
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: c11805cbad458024fb6fcab6f283bef7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8911988588018935794
+    second: sprites_rick_idle-removebg-preview_0
+  - first:
+      213: 6666015072610693703
+    second: sprites_rick_idle-removebg-preview_1
+  - first:
+      213: 6424390083595075555
+    second: sprites_rick_idle-removebg-preview_2
+  - first:
+      213: -4213903396269117990
+    second: sprites_rick_idle-removebg-preview_3
+  - first:
+      213: -3245839570623927172
+    second: sprites_rick_idle-removebg-preview_4
+  - first:
+      213: 5229120788439758575
+    second: sprites_rick_idle-removebg-preview_5
+  - first:
+      213: 1718540792451138435
+    second: sprites_rick_idle-removebg-preview_6
+  - first:
+      213: 6799276776461475848
+    second: sprites_rick_idle-removebg-preview_7
+  - first:
+      213: 5167223799992347640
+    second: sprites_rick_idle-removebg-preview_8
+  - first:
+      213: -2503553779642938667
+    second: sprites_rick_idle-removebg-preview_9
+  - first:
+      213: -6474421573243580681
+    second: sprites_rick_idle-removebg-preview_10
+  - first:
+      213: -6332443645188820570
+    second: sprites_rick_idle-removebg-preview_11
+  - first:
+      213: 8313056158680252367
+    second: sprites_rick_idle-removebg-preview_12
+  - first:
+      213: -8681268002575974800
+    second: sprites_rick_idle-removebg-preview_13
+  - first:
+      213: -8936894538704648818
+    second: sprites_rick_idle-removebg-preview_14
+  - first:
+      213: 5429851161177392643
+    second: sprites_rick_idle-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08dbc0d891425480800000000000000
+      internalID: -8911988588018935794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7423c56f361728c50800000000000000
+      internalID: 6666015072610693703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eff93f3eb4082950800000000000000
+      internalID: 6424390083595075555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add2193ff253585c0800000000000000
+      internalID: -4213903396269117990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ced039b1674f2d0800000000000000
+      internalID: -3245839570623927172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6ff8ae6a1919840800000000000000
+      internalID: 5229120788439758575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383811adebb79d710800000000000000
+      internalID: 1718540792451138435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800ac8e3432eb5e50800000000000000
+      internalID: 6799276776461475848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbec714baaa5b740800000000000000
+      internalID: 5167223799992347640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dacb401a17914dd0800000000000000
+      internalID: -2503553779642938667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fec0b0d1eb3626a0800000000000000
+      internalID: -6474421573243580681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a137503e04ae18a0800000000000000
+      internalID: -6332443645188820570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf72082888ed5370800000000000000
+      internalID: 8313056158680252367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7e7a3fb0f58780800000000000000
+      internalID: -8681268002575974800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85816944c5c9f380800000000000000
+      internalID: -8936894538704648818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306883dccd4ba5b40800000000000000
+      internalID: 5429851161177392643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_rick_idle-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d50fe570eba87b4c91e2fe59b69281c
+      internalID: -87414511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f5f40e65bd8fd3349b384ba0cfe19eed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sprites_rick_idle-removebg-preview_0: -8911988588018935794
+      sprites_rick_idle-removebg-preview_1: 6666015072610693703
+      sprites_rick_idle-removebg-preview_10: -6474421573243580681
+      sprites_rick_idle-removebg-preview_11: -6332443645188820570
+      sprites_rick_idle-removebg-preview_12: 8313056158680252367
+      sprites_rick_idle-removebg-preview_13: -8681268002575974800
+      sprites_rick_idle-removebg-preview_14: -8936894538704648818
+      sprites_rick_idle-removebg-preview_15: 5429851161177392643
+      sprites_rick_idle-removebg-preview_16: -87414511
+      sprites_rick_idle-removebg-preview_2: 6424390083595075555
+      sprites_rick_idle-removebg-preview_3: -4213903396269117990
+      sprites_rick_idle-removebg-preview_4: -3245839570623927172
+      sprites_rick_idle-removebg-preview_5: 5229120788439758575
+      sprites_rick_idle-removebg-preview_6: 1718540792451138435
+      sprites_rick_idle-removebg-preview_7: 6799276776461475848
+      sprites_rick_idle-removebg-preview_8: 5167223799992347640
+      sprites_rick_idle-removebg-preview_9: -2503553779642938667
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
