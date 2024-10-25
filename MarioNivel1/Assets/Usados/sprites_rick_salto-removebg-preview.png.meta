@@ -111,12 +111,12 @@ TextureImporter:
       name: sprites_rick_salto-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 40
-        height: 77
+        x: 17
+        y: 3
+        width: 28
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,12 +132,12 @@ TextureImporter:
       name: sprites_rick_salto-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 2
-        width: 45
-        height: 75
+        x: 57
+        y: 5
+        width: 28
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: sprites_rick_salto-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 99
         y: 9
-        width: 44
+        width: 33
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,11 +175,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 138
-        y: 2
+        y: 13
         width: 40
-        height: 71
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: sprites_rick_salto-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 179
+        x: 185
         y: 8
-        width: 69
-        height: 62
+        width: 39
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,10 +212,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sprites_rick_salto-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 76
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba023b1dc86c5045849380452d03a94
+      internalID: 637078811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c182ad2345055847b8ebba6de449886
     internalID: 0
     vertices: []
     indices: 
@@ -228,6 +249,7 @@ TextureImporter:
       sprites_rick_salto-removebg-preview_2: 7980267647039203705
       sprites_rick_salto-removebg-preview_3: 1953916965003298951
       sprites_rick_salto-removebg-preview_4: -9126098543188817751
+      sprites_rick_salto-removebg-preview_5: 637078811
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
