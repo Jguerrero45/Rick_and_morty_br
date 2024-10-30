@@ -4017,6 +4017,7 @@ GameObject:
   - component: {fileID: 1359944526}
   - component: {fileID: 1359944525}
   - component: {fileID: 1359944527}
+  - component: {fileID: 1359944528}
   m_Layer: 0
   m_Name: rick_sanchez_sprite_2_idle-removebg-preview_0 (1)
   m_TagString: Untagged
@@ -4085,7 +4086,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1216853618, guid: d7919e3d11890ec4ea4d6d1a0b9b433c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4176,6 +4177,18 @@ MonoBehaviour:
   JumpSpeed: 4.85
   spriteRenderer: {fileID: 1359944523}
   Animator: {fileID: 1359944522}
+--- !u!114 &1359944528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359944521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9b0dc6a92755e47ba4f9d570a8e14b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1415393683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4452,7 +4465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890205565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1.3295544, z: 0}
+  m_LocalPosition: {x: -4, y: -1.359554, z: 0}
   m_LocalScale: {x: 0.4, y: 0.39, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
