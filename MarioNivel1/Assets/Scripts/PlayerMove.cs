@@ -34,6 +34,7 @@ public class PlayerMove : MonoBehaviour
             spriteRenderer.flipX = true;
             Animator.SetBool("Corriendo", true);
             Animator.SetBool("Salto",false);
+            Animator.SetBool("Idle",false);
         } 
         else
         {
@@ -41,6 +42,7 @@ public class PlayerMove : MonoBehaviour
             if(CheckGround.isGrounded)
             {      
                 Animator.SetBool("Corriendo", false);
+                Animator.SetBool("Idle",true);
             }
         }
         if(Input.GetKey("space") && CheckGround.isGrounded)
@@ -48,6 +50,7 @@ public class PlayerMove : MonoBehaviour
             rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
             Animator.SetBool("Salto", true);
             Animator.SetBool("Corriendo",false);
+            Animator.SetBool("Idle",false);
 
         }
         if(CheckGround.isGrounded)
@@ -67,6 +70,7 @@ public class PlayerMove : MonoBehaviour
         {
             Animator.SetBool("Salto",true);
             Animator.SetBool("Corriendo",false);
+            Animator.SetBool("Idle",false);
         }
     }
 }
