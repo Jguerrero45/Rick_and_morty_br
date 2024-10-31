@@ -12,21 +12,26 @@ public class DamageObject : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.transform.CompareTag("Enemy"))
         {
-            Animator.SetBool("Muerte", true);
-            Animator.SetBool("Salto", false);
-            Animator.SetBool("Corriendo", false);
-            Animator.SetBool("Idle", false);
-
-            // Obtén el script de movimiento del enemigo
-            MonsterMoves enemyMovement = collision.transform.GetComponent<MonsterMoves>();
-
-            if (enemyMovement != null)
+            Animator enemyAnimator3 = collision.transform.GetComponent<Animator>();
+            if (enemyAnimator3 != null && !enemyAnimator3.GetBool("idle") && !enemyAnimator3.GetBool("idlero"))
             {
-                StartCoroutine(HandleDamage(enemyMovement));
+                Animator.SetBool("Muerte", true);
+                Animator.SetBool("Salto", false);
+                Animator.SetBool("Corriendo", false);
+                Animator.SetBool("Idle", false);
+
+                // Obtén el script de movimiento del enemigo
+                MonsterMoves enemyMovement = collision.transform.GetComponent<MonsterMoves>();
+
+                if (enemyMovement != null)
+                {
+                    StartCoroutine(HandleDamage(enemyMovement));
+                }
             }
-        }
+        }   
     }
 
     private IEnumerator HandleDamage(MonsterMoves enemyMovement)
@@ -38,26 +43,29 @@ public class DamageObject : MonoBehaviour
         vidas--;
         Debug.Log("Vidas restantes: " + vidas); // Mensaje de depuración
 
-        // Teletransporta este objeto al centro
-        if(vidas == 2)
+        // Actualiza la visualización de las vidas
+        if (vidas == 2)
         {
+            Debug.Log("2 vidas");
             Destroy(vida1);
         }
-        if(vidas == 1)
+        else if (vidas == 1)
         {
+            Debug.Log("1 vida");
             Destroy(vida2);
         }
-
 
         // Espera un segundo
         yield return new WaitForSeconds(1f);
         TeleportToCenter();
+
         // Reactiva el movimiento del enemigo
         enemyMovement.isMoving = true;
 
         // Verifica si ha perdido todas las vidas
         if (vidas <= 0)
         {
+            
             Destroy(gameObject); // Destruye este objeto
             Debug.Log("Objeto destruido."); // Mensaje de depuración
         }
@@ -65,15 +73,10 @@ public class DamageObject : MonoBehaviour
 
     private void TeleportToCenter()
     {
-        
-        
         transform.position = new Vector2(0.14f, 1.96f);
         Animator.SetBool("Muerte", false);
-        Animator.SetBool("Idle",true);
+        Animator.SetBool("Idle", true);
         Debug.Log("Objeto teletransportado al centro."); // Mensaje de depuración
         plataforma.SetActive(true); 
     }
 }
-
-
-

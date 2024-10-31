@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class Paw : MonoBehaviour
 {
-    public Animator animator; // Este Animator podría no ser necesario en este contexto
-    public Animator animator2; // Si necesitas referenciar diferentes animadores, puedes mantenerlos
-    public Animator animator3; // Se mantiene para la referencia
     public bool pordebajo;
+    public Animator animatormap;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player")) // Asegúrate de que sea el jugador
+        if(collision.gameObject.CompareTag("Pow"))
         {
-            pordebajo = true;
+            Debug.Log("toco");
+            pordebajo = true; // Se establece en true al tocar el Pow
+            StartCoroutine(movimientopaw());
             StartCoroutine(HandleEnemiesIdle());
+        }
+        if(collision.gameObject.CompareTag("Mapa"))
+        {
+            Debug.Log("Tocando el techo");
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player")) // Asegúrate de que sea el jugador
+        if (collision.gameObject.CompareTag("Pow"))
         {
-            pordebajo = false;
+            pordebajo = false; // Se establece en false al dejar de tocar el Pow
         }
     }
 
@@ -30,54 +34,45 @@ public class Paw : MonoBehaviour
     {
         // Encuentra todos los enemigos activos
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        
-        // Cambia la animación de los enemigos a "Idle"
+
+        // Cambia la animación de los enemigos a "Idle" y desactiva su movimiento
         foreach (GameObject enemy in enemies)
         {
             Animator enemyAnimator = enemy.GetComponent<Animator>();
-            if (enemyAnimator != null)
+            MonsterMoves enemyMovement = enemy.GetComponent<MonsterMoves>();
+            if (enemyAnimator != null && enemyMovement != null)
             {
-                enemyAnimator.SetBool("Idle", true); // Cambia a la animación "Idle"
+                enemyAnimator.SetBool("idle", true);
+                enemyAnimator.SetBool("caminaro", false);
+                enemyMovement.isMoving = false;
             }
         }
 
         // Espera 8 segundos
         yield return new WaitForSeconds(8f);
-    
-        // Cambia la animación de los enemigos a "Caminaro"
+
+        // Reactiva la animación de caminar y movimiento de los enemigos
         foreach (GameObject enemy in enemies)
         {
             Animator enemyAnimator = enemy.GetComponent<Animator>();
-            if (enemyAnimator != null)
+            MonsterMoves enemyMovement = enemy.GetComponent<MonsterMoves>();
+            if (enemyAnimator != null && enemyMovement != null)
             {
-                enemyAnimator.SetBool("Idle", false); // Cambia a la animación "Idle" a false
-                enemyAnimator.SetBool("Caminaro", true); // Cambia a la animación "Caminaro"
-                
-                // Aquí se asume que el enemigo tiene un componente de movimiento
-                MonsterMoves enemyMovement = enemy.GetComponent<MonsterMoves>();
-                if (enemyMovement != null)
-                {
-                    enemyMovement.runSpeed = 2; // Cambia la velocidad del enemigo a 2
-                    enemyMovement.isMoving = true; // Asegúrate de que el enemigo se mueva
-                }
+                enemyAnimator.SetBool("idle", false);
+                enemyAnimator.SetBool("caminaro", true);
+                enemyMovement.runSpeed = 2;
+                enemyMovement.isMoving = true;
             }
         }
+
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private IEnumerator movimientopaw()
     {
-        if (collision.CompareTag("Enemy"))
-        {
-            // Verifica si el enemigo está en la animación "Idle" o "Idlero" antes de destruirlo
-            Animator enemyAnimator = collision.GetComponent<Animator>();
-            if (enemyAnimator != null)
-            {
-                if (enemyAnimator.GetBool("Idle") || enemyAnimator.GetBool("Idlero"))
-                {
-                    // Destruye el enemigo si está en la animación "Idle" o "Idlero"
-                    Destroy(collision.gameObject);
-                }
-            }
-        }
+        animatormap.enabled = true;
+        yield return new WaitForSeconds(1f);
+        animatormap.enabled = false;
     }
+
+    
 }
